@@ -247,3 +247,5 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         print("Saliendo..")
         exit()
+        
+#@cuchillo#7116 (discord)
