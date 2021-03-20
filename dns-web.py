@@ -7,7 +7,21 @@ import argparse
 import time
 import os
 
-parser = argparse.ArgumentParser(description="Obtener información mediante DNS")
+def banner():
+    os.system ("cls")
+
+    print(chr(27)+"[1;31m"+"░█████╗░██╗░░░██╗░█████╗░██╗░░██╗██╗██╗░░░░░██╗░░░░░░█████╗░")
+    print(chr(27)+"[1;31m"+"██╔══██╗██║░░░██║██╔══██╗██║░░██║██║██║░░░░░██║░░░░░██╔══██╗")
+    print(chr(27)+"[1;31m"+"██║░░╚═╝██║░░░██║██║░░╚═╝███████║██║██║░░░░░██║░░░░░██║░░██║")
+    print(chr(27)+"[1;31m"+"██║░░██╗██║░░░██║██║░░██╗██╔══██║██║██║░░░░░██║░░░░░██║░░██║")
+    print(chr(27)+"[1;31m"+"╚█████╔╝╚██████╔╝╚█████╔╝██║░░██║██║███████╗███████╗╚█████╔╝")
+    print(chr(27)+"[1;31m"+"░╚════╝░░╚═════╝░░╚════╝░╚═╝░░╚═╝╚═╝╚══════╝╚══════╝░╚════╝░")
+    print()
+    print()
+    print(chr(27)+"[1;37m"+"Obtener información mediante DNS")
+    print()
+
+parser = argparse.ArgumentParser(description=banner())
 parser.add_argument('-w','--web',help="Indica una web")
 parser = parser.parse_args()
 
