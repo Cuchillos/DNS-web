@@ -8,7 +8,7 @@ Como usarlo:
 git clone https://github.com/Cuchillos/DNS-web.git
 cd DNS-web
 pip install -r requirements.txt
-python dns-web.py
+python dns-web.py -h
 ```
 
 By @cuchillo#7116 (discord)
