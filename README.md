@@ -7,7 +7,7 @@ Como usarlo:
 ```
 git clone https://github.com/Cuchillos/DNS-web.git
 cd DNS-web
-pip install requirements.txt
+pip install -r requirements.txt
 python dns-web.py
 ```
 
