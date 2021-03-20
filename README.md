@@ -1,2 +1,2 @@
 # DNS-web
-Obtener todos los dns de una web
+Obtener toda la información de los dns de una web
